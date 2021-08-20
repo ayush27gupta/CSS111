@@ -1,0 +1,48 @@
+body {
+    color: brown;
+    background-image: url("https://www.teahub.io/photos/full/0-2034_plain-white-wallpapers-1080p-is-cool-wallpapers-html.jpg");
+}
+
+.red {
+    color: red;
+}
+
+.italic {
+    color: red;
+    font-style: oblique
+}
+
+.under {
+    color: red;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+ul {
+    letter-spacing: 5px;
+}
+
+ol {
+    line-height: 45px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.bg {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.bg2 {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+    font-style: oblique
+}
+
+a {
+    text-decoration: none;
+}

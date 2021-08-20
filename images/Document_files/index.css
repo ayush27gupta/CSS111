@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    border: 5px greenyellow;
+    border-style: double;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 216px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+}
+
+.mid {
+    display: flex;
+    border: 5px solid red;
+    border-radius: 50px;
+    width: 500px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 216px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    font-style: oblique;
+}
+
+.nav {
+    padding: 2px;
+}
+
+.details {
+    padding: 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.idetails {
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    margin-left: 150px;
+}
+
+.circle {
+    top: 200px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(53, 184, 184);
+    border: 5px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 250px;
+    margin-left: 100px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.circle.c1 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 5px dashed red;
+    justify-content: center;
+    align-items: center;
+    height: 700px
+}
+
+.form input {
+    align-items: center;
+    margin: 7px;
+}
+
+.form h1 {
+    color: rgb(255, 162, 162);
+}
+
+.form label {
+    color: red;
+    margin: 15px;
+    padding: 15px;
+}
+
+.form button {
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(8, 8, 8, 0.199);
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.form button:hover {
+    color: white;
+    background-color: black;
+}
